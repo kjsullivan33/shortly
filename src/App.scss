@@ -1,0 +1,42 @@
+.btn-link {
+	background-color: var(--clr-primary-400);
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 0.75em 2em;
+	letter-spacing: 1px;
+	font-size: 1.125rem;
+	font-weight: 600;
+	border-radius: 500px;
+	width: fit-content;
+
+	&:hover {
+		color: white;
+		background-color: var(--clr-primary-100);
+		&::after {
+			position: absolute;
+			bottom: 0%;
+			left: 50%;
+			content: "Coming Soon...";
+			border: 1px solid var(--clr-nuetral-100);
+			background-color: var(--clr-secondary-400);
+			color: var(--clr-nuetral-100);
+			font-size: 0.75rem;
+			border-radius: 100px;
+			padding: 0.5rem;
+			z-index: 5;
+			opacity: 0.75;
+			transform: translate(-50%, 3em);
+			width: 7.5rem;
+			text-align: center;
+		}
+	}
+}
+
+.btn-delete {
+	background-color: var(--clr-secondary-400);
+
+	&:hover {
+		opacity: 0.5;
+	}
+}

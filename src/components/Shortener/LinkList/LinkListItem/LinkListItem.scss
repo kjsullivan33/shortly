@@ -1,0 +1,38 @@
+.list-item {
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 1em;
+	padding: 0.5em 1em;
+
+	@media (min-width: 768px) {
+		display: grid;
+		grid-template-columns: 5fr 2.5fr 1fr;
+		gap: 1em;
+		align-items: center;
+	}
+
+	a {
+		font-size: 0.75rem;
+		display: block;
+		@media (min-width: 768px) {
+			text-align: right;
+		}
+	}
+	.long-link {
+		font-size: 0.6rem;
+		@media (min-width: 768px) {
+			text-align: left;
+		}
+	}
+
+	.long-link {
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	button {
+		margin: 0.5em;
+		font-size: 0.75rem;
+		width: 6rem;
+	}
+}

@@ -1,0 +1,4 @@
+.shortlink {
+  color: var(--clr-primary-400); }
+  .shortlink:hover {
+    color: var(--clr-primary-100); }

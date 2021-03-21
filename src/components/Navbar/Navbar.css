@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem 1rem;
+  width: 100%; }
+  nav .links {
+    display: none; }
+  @media (min-width: 768px) {
+    nav .links {
+      display: flex;
+      justify-content: space-around;
+      width: 20rem;
+      align-items: center; }
+    nav .navbar-left {
+      display: flex; }
+    nav .mobile-menu {
+      display: none; } }

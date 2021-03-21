@@ -1,0 +1,10 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1em; }
+  .column p {
+    color: white;
+    margin-bottom: 0.25em;
+    font-weight: 600; }
+  .column .footer-link {
+    color: var(--clr-nuetral-400); }
