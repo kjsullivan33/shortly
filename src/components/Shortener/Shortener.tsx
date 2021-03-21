@@ -45,7 +45,7 @@ function Shortener() {
 			]);
 		} else if (data && !data.ok) {
 			setError(
-				'Provide a valid URL.  For more info see <a href="shtco.de/docs" target="__blank">shtco.de/docs</a>'
+				'Provide a valid URL.  For more info see <a href="https://app.shrtco.de/docs" target="__blank">shtco.de/docs</a>'
 			);
 			setLoading(false);
 		}
