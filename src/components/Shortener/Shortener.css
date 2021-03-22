@@ -2,6 +2,7 @@
   padding: 0 2em;
   transform: translateY(-4.5rem);
   max-width: 60rem;
+  width: 75%;
   margin: 0 auto; }
 
 .input-container button {
@@ -14,14 +15,11 @@
   border-radius: 5px;
   padding: 0.5em 1.5em;
   height: fit-content;
+  width: fit-content;
   cursor: pointer; }
 
 .input-container button:disabled {
   cursor: wait; }
-
-@media (min-width: 768px) {
-  .input-container button {
-    width: fit-content; } }
 
 .input-container .primary {
   background-color: var(--clr-primary-400); }
