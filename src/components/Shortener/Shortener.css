@@ -4,32 +4,26 @@
   max-width: 60rem;
   width: 75%;
   margin: 0 auto; }
-
-.input-container button {
-  border: none;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 1.125rem;
-  letter-spacing: 1px;
-  border-radius: 5px;
-  padding: 0.5em 1.5em;
-  height: fit-content;
-  width: fit-content;
-  cursor: pointer; }
-
-.input-container button:disabled {
-  cursor: wait; }
-
-.input-container .primary {
-  background-color: var(--clr-primary-400); }
-
-.input-container .primary:hover {
-  color: white;
-  background-color: var(--clr-primary-100); }
-
-.input-container .secondary {
-  background-color: var(--clr-primary-700); }
-
-.input-container .secondary:hover {
-  color: white; }
+  .input-container button {
+    border: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 0.5em 1.5em;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer; }
+    .input-container button:disabled {
+      cursor: wait; }
+  .input-container .primary {
+    background-color: var(--clr-primary-400); }
+    .input-container .primary:hover {
+      color: white;
+      background-color: var(--clr-primary-100); }
+  .input-container .secondary {
+    background-color: var(--clr-primary-700); }
+    .input-container .secondary:hover {
+      color: white; }

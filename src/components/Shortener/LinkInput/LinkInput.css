@@ -6,48 +6,41 @@
   background-size: 70% 80%;
   padding: 1.5em;
   border-radius: 10px; }
-
-.link-input a {
-  color: white; }
-
-.link-input a:hover {
-  color: var(--clr-nuetral-400); }
-
-@media (min-width: 768px) {
-  .link-input {
-    display: grid;
-    grid-template-columns: 4fr 10rem;
-    gap: 1em;
-    background-image: url("../../../assets/bg-shorten-desktop.svg");
-    background-size: cover;
-    height: 3rem; }
-  .link-input .field {
-    width: 100%;
-    padding: 0 2em;
-    text-align: left; }
-  .link-input .field p {
-    margin-left: 0;
-    color: var(--clr-secondary-400);
-    display: inline; } }
-
-.link-input input {
-  padding: 0.5em 1em;
-  margin-bottom: 1em;
-  border-radius: 5px;
-  border: none;
-  color: var(--clr-nuetral-400);
-  font-size: 1rem;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  width: 100%; }
-
-@media (min-width: 768px) {
+  .link-input a {
+    color: white; }
+    .link-input a:hover {
+      color: var(--clr-nuetral-400); }
+  @media (min-width: 768px) {
+    .link-input {
+      display: grid;
+      grid-template-columns: 4fr 10rem;
+      gap: 1em;
+      background-image: url("../../../assets/bg-shorten-desktop.svg");
+      background-size: cover;
+      height: 3rem; }
+      .link-input .field {
+        width: 100%;
+        padding: 0 2em;
+        text-align: left; }
+        .link-input .field p {
+          margin-left: 0;
+          color: var(--clr-secondary-400);
+          display: inline; } }
   .link-input input {
-    margin-bottom: 0;
-    width: 90%; } }
-
-.link-input .error {
-  outline: 2px solid var(--clr-secondary-400); }
-
-.link-input .error::placeholder {
-  color: var(--clr-secondary-400); }
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    color: var(--clr-nuetral-400);
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .link-input input {
+        margin-bottom: 0;
+        width: 90%; } }
+  .link-input .error {
+    outline: 2px solid var(--clr-secondary-400); }
+    .link-input .error::placeholder {
+      color: var(--clr-secondary-400); }
